@@ -1,7 +1,10 @@
 package me.sloowy.currencyconverter;
 
+import me.sloowy.currencyconverter.cli.Menu;
+
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Menu.startConverter();
     }
 }
